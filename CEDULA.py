@@ -1,13 +1,13 @@
 nc1 = int(input(" leer el primer digito de la cedula: "))
-nc2 = int(input(" leer el primer digito de la cedula: "))
-nc3 = int(input(" leer el primer digito de la cedula: "))
-nc4 = int(input(" leer el primer digito de la cedula: "))
-nc5 = int(input(" leer el primer digito de la cedula: "))
-nc6 = int(input(" leer el primer digito de la cedula: "))
-nc7 = int(input(" leer el primer digito de la cedula: "))
-nc8 = int(input(" leer el primer digito de la cedula: "))
-nc9 = int(input(" leer el primer digito de la cedula: "))
-nc10 = int(input(" leer el primer digito de la cedula: "))
+nc2 = int(input(" leer el segundo digito de la cedula: "))
+nc3 = int(input(" leer el tercero digito de la cedula: "))
+nc4 = int(input(" leer el cuarto digito de la cedula: "))
+nc5 = int(input(" leer el quinto  digito de la cedula: "))
+nc6 = int(input(" leer el sexto  digito de la cedula: "))
+nc7 = int(input(" leer el septimo  digito de la cedula: "))
+nc8 = int(input(" leer el octavo  digito de la cedula: "))
+nc9 = int(input(" leer el noveno  digito de la cedula: "))
+nc10 = int(input(" leer el decimo  digito de la cedula: "))
 a = nc1 * 2
 if a > 9:
    a = a - 9
