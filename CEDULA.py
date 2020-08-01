@@ -43,39 +43,39 @@ print(" total: ", total)
 
 if total <= 10:
  total = total - 10
- print(" ultimo digito de ceudula: ", total)
+ print(" ultimo digito de cedula: ", total)
 
 elif total < 20 and total > 10:
  total = total - 20
- print(" ultimo digito de ceudula: ", total)
+ print(" ultimo digito de cedula: ", total)
 
 elif total < 30 and total > 20:
  total = total - 30
- print(" ultimo digito de ceudula: ", total)
+ print(" ultimo digito de cedula: ", total)
 
 elif total < 40 and total > 30:
  total = total - 40
- print(" ultimo digito de ceudula: ", total)
+ print(" ultimo digito de cedula: ", total)
 
 elif total < 50 and total > 40:
  total = total - 50
- print(" ultimo digito de ceudula: ", total)
+ print(" ultimo digito de cedula: ", total)
 
 elif total < 60 and total > 50:
  total = total - 60
- print(" ultimo digito de ceudula: ", total)
+ print(" ultimo digito de cedula: ", total)
 
 elif total < 70 and total > 60:
  total = total - 70
- print(" ultimo digito de ceudula: ", total)
+ print(" ultimo digito de cedula: ", total)
 
 elif total < 80 and total > 70:
  total = total - 80
- print(" ultimo digito de ceudula: ", total)
+ print(" ultimo digito de cedula: ", total)
 
 elif total < 90 and total > 80:
  total = total - 90
- print(" ultimo digito de ceudula: ", total)
+ print(" ultimo digito de cedula: ", total)
 
 
 
