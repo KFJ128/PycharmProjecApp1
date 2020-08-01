@@ -22,7 +22,7 @@ elif total_de_gatos_en_todo_el_año > 1441600 and total_de_gatos_en_todo_el_año
 
 elif total_de_gatos_en_todo_el_año > 1801800 and total_de_gatos_en_todo_el_año <= 2163900:
  total_de_gatos_en_todo_el_año = total_de_gatos_en_todo_el_año + 515
- print(" total de gastos anuales:", total_de_gatos_en_todo_el_año, " con impuesto = $515 " )
+ print(" total de gastos anuales:", total_de_gatos_en_todo_el_año, " con impuesto = $515 ")
 
 elif total_de_gatos_en_todo_el_año > 2163900 and total_de_gatos_en_todo_el_año <= 4326800:
  total_de_gatos_en_todo_el_año = total_de_gatos_en_todo_el_año + 950
