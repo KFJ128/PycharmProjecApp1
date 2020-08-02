@@ -7,7 +7,6 @@ nc6 = int(input(" leer el sexto  digito de la cedula: "))
 nc7 = int(input(" leer el septimo  digito de la cedula: "))
 nc8 = int(input(" leer el octavo  digito de la cedula: "))
 nc9 = int(input(" leer el noveno  digito de la cedula: "))
-nc10 = int(input(" leer el decimo  digito de la cedula: "))
 a = nc1 * 2
 if a > 9:
    a = a - 9
@@ -45,35 +44,35 @@ if total <= 10:
  total = total - 10
  print(" ultimo digito de cedula: ", total)
 
-elif total < 20 and total > 10:
+elif (total < 20) and (total > 10):
  total = total - 20
  print(" ultimo digito de cedula: ", total)
 
-elif total < 30 and total > 20:
+elif (total < 30) and (total > 20):
  total = total - 30
  print(" ultimo digito de cedula: ", total)
 
-elif total < 40 and total > 30:
+elif (total < 40) and (total > 30):
  total = total - 40
  print(" ultimo digito de cedula: ", total)
 
-elif total < 50 and total > 40:
+elif (total < 50) and (total > 40):
  total = total - 50
  print(" ultimo digito de cedula: ", total)
 
-elif total < 60 and total > 50:
+elif (total < 60) and (total > 50):
  total = total - 60
  print(" ultimo digito de cedula: ", total)
 
-elif total < 70 and total > 60:
+elif (total < 70) and (total > 60):
  total = total - 70
  print(" ultimo digito de cedula: ", total)
 
-elif total < 80 and total > 70:
+elif (total < 80) and (total > 70):
  total = total - 80
  print(" ultimo digito de cedula: ", total)
 
-elif total < 90 and total > 80:
+elif (total < 90) and (total > 80):
  total = total - 90
  print(" ultimo digito de cedula: ", total)
 
