@@ -44,6 +44,30 @@ prom = (acum / contt)
 print(" Pemerdio de números primos:", prom)
 
 
+#nwe formula
+resultado = 0
+e = int(input(" Leer valor: "))
+f1 = 1
+f2 = 1
+n1 = 0
+n2 = 0
+for m in range(0, e, 1):
+ e = m
+ n2 = (2 * e +1)
+ n1 = e
+ for i in range(1, n1, 1):
+  f1 *= i
+ for j in range(1, n2, 1):
+  f2 = f2 * j
+
+resultado += ((2 ** e) * (f1) ** 2 / f2 )
+f1 = 1
+f2 = 1
+
+print(resultado)
+
+
+
 
 
 
