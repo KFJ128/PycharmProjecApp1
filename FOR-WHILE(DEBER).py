@@ -1,4 +1,4 @@
-n = int(input(" leé valor: "))
+n = int(input(" Lee valor: "))
 p1 = 0
 p2 = 0
 p3 = 0
@@ -8,27 +8,27 @@ for i in range(1, n+1):
     p2 = (2 * i) / (2 * i + 1)
     p3 = p1 * p2
     aproximacion *= p3
-print(" aproximación a pi en el método Producto de Wallis: ", aproximacion)
+print(" Aproximación a pi en el método producto de Wallis: ", aproximacion)
 
 
 
 
 #divir
-dividendo = int(input(" leer el dividendo:"))
-divisor= int(input(" leer el divisor:"))
+dividendo = int(input(" Leer el dividendo:"))
+divisor= int(input(" Leer el divisor:"))
 cociente = 0
 while dividendo >= divisor:
  dividendo -= divisor
  cociente = cociente + 1
 #resultado
-print("conciente: ", cociente)
-print(" resto: ", dividendo)
+print("Conciente: ", cociente)
+print(" Resto: ", dividendo)
 
 
 
 
  #numero primo
-n = int(input("leer valor: "))
+n = int(input("Leer valor: "))
 acum = 1
 contt = 1
 prom = 0
@@ -41,7 +41,7 @@ for i in range(1, n + 1, 1):
     acum += i
     contt += 1
 prom = (acum / contt)
-print(prom)
+print(" Pemerdio de números primos:", prom)
 
 
 
