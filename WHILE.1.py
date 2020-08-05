@@ -15,3 +15,7 @@ while anio <= 2012:
     anio += 1
 
 #practica en clases
+i = 1
+while i <= 19:
+    print(" el numero impar es: ", i)
+    i += 2
