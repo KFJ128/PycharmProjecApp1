@@ -19,3 +19,26 @@ i = 1
 while i <= 19:
     print(" el numero impar es: ", i)
     i += 2
+
+#suma de los primeros 100 números
+i = 1
+acum = 0
+while i <= 100:
+ print(" el numero impar es: ", i)
+ acum += i
+ i += 1
+ print(" la suma de los primeros 100 números es: ", acum)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
