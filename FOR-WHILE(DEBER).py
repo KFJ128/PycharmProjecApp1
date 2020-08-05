@@ -19,7 +19,7 @@ divisor= int(input(" Leer el divisor:"))
 cociente = 0
 while dividendo >= divisor:
  dividendo -= divisor
- cociente = cociente + 1
+ cociente += 1
 #resultado
 print("Conciente: ", cociente)
 print(" Resto: ", dividendo)
