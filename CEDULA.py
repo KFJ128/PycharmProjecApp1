@@ -53,7 +53,7 @@ elif (total < 30) and (total > 20):
  print(" ultimo digito de cedula: ", total)
 
 elif (total < 40) and (total > 30):
- total -=40
+ total -= 40
  print(" ultimo digito de cedula: ", total)
 
 elif (total < 50) and (total > 40):
