@@ -9,6 +9,6 @@ for i in range(1, factorial, 1):
 #cuadrado de un número
 n = int(input(" leer valor: "))
 respuesta = 0
-for i in range(1, 2 * n -1+1, 2):
+for i in range(1, 2 * n, 2):
     respuesta += i
     print(" cuadrado del número es:", respuesta)
