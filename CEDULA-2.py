@@ -1,4 +1,4 @@
-cedula = [1, 7, 2, 7, 6, 6, 6, 8, 3, 4]
+cedula = [1, 7, 2, 7, 6, 6, 6, 8, 3]
 
 cedula[0] = cedula[0] * 2
 if cedula[0] > 9:
@@ -27,10 +27,7 @@ suma_impares = cedula[0] + cedula[2] + cedula[4] + cedula[6] + cedula[8]
 suma_total = suma_pares + suma_impares
 
 suma_total %= 10
-#final:
-if suma_total != 0:
-    suma_total = 10 - suma_total
-    print(f"Dígito verificador es: {suma_total}")
-else:
-    print(f"Dígito verificandor es : {suma_total}")
+suma_total = 10 - suma_total
+print(f"Dígito verificador es: {suma_total}")
+
 
