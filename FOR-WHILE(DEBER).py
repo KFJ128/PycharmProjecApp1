@@ -93,5 +93,8 @@ print(" resultado: ", resultado)
 
 
 
-
-
+#conteo de digitos.
+numero = int(input(" leer número: "))
+numero2 = str(numero)
+resultado = len(numero2)
+print(resultado)
