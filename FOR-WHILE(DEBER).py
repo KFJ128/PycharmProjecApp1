@@ -37,46 +37,38 @@ while i <= n:
 print(acum)
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
  #numero primo
 n = int(input("Leer valor: "))
 acum = 1
 contt = 1
 prom = 0
-for i in range(1, n+1):
- cont = 0
-for j in range(1, n+1):
- if i % j == 0:
-  cont += 1
- elif cont == 2:
-   acum += i
-   contt += 1
-   prom = (acum / contt)
+for i in range(1, n):
+    cont = 0
+    for j in range(1, n):
+        if i % j == 0:
+         cont += 1
+    if cont == 2:
+       acum += i
+       contt += 1
+prom = (acum / contt)
 print(" Pemerdio de números primos:", prom)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 #nwe formula
