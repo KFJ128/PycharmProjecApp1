@@ -55,22 +55,6 @@ print(" Pemerdio de números primos:", prom)
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 #new formula
 e = int(input(" Leer valor: "))
 resultado = 0
@@ -93,6 +77,19 @@ print(resultado)
 
 
 
+
+#base exponente
+base = int(input(" Leer base: "))
+exponente = int(input(" Leer exponente: "))
+resultado = base
+t = 0
+for i in range(1, exponente, 1):
+    for j in range(1, base+1, 1):
+        t += resultado
+        print(resultado)
+    resultado = t
+    t = 0
+    print(" resultado: ", resultado)
 
 
 
