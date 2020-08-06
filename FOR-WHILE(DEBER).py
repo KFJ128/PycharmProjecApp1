@@ -76,8 +76,6 @@ for m in range(0, e, 1):
 print(resultado)
 
 
-
-
 #base exponente
 base = int(input(" Leer base: "))
 exponente = int(input(" Leer exponente: "))
@@ -91,10 +89,10 @@ for i in range(1, exponente, 1):
 print(" resultado: ", resultado)
 
 
-
-
 #conteo de digitos.
-numero = int(input(" leer número: "))
-numero2 = str(numero)
+numero2 = str(input(" leer el número: "))
 resultado = len(numero2)
 print(resultado)
+
+
+
