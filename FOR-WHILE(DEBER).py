@@ -86,10 +86,9 @@ t = 0
 for i in range(1, exponente, 1):
     for j in range(1, base+1, 1):
         t += resultado
-        print(resultado)
     resultado = t
     t = 0
-    print(" resultado: ", resultado)
+print(" resultado: ", resultado)
 
 
 
