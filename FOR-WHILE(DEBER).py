@@ -97,7 +97,7 @@ print(resultado)
 
 
 
-#tabla de multiplicar
+#tabla de multiplicar:
 numero = int(input(" introducir el número: "))
 for i in range (1, 11):
     print(numero, " x ", i, " = ", (numero * i))
