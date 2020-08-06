@@ -90,9 +90,14 @@ print(" resultado: ", resultado)
 
 
 #conteo de digitos.
-numero2 = str(input(" leer el número: "))
+numero =input(" leer el número: ")
+numero2 = str(numero)
 resultado = len(numero2)
 print(resultado)
 
 
 
+#tabla de multiplicar
+numero = int(input(" introducir el número: "))
+for i in range (1, 11):
+    print(numero, " x ", i, " = ", (numero * i))
