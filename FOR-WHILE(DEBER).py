@@ -180,14 +180,21 @@ print(" iva: ", iva)
 print(" total a pagar: ", total_pago)
 
 
+#conteo
+numero =int(input(" leer el número: "))
+numero2 = str(numero)
+resultado = len(numero2)
+conteo = 0
+for i in (0,  resultado-1, 1):
+    conteo += i
+print(conteo)
+
 
 #conteo
 numero =int(input(" leer el número: "))
 numero2 = str(numero)
 resultado = len(numero2)
 resultado2 = int(resultado)
-conteo = 0
-for i in (0, resultado2-1, 1):
-    conteo += i
-print(conteo)
-
+while i <= resultado2-1:
+    i +=1
+print(" digitos: ", i)
