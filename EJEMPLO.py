@@ -13,7 +13,7 @@ print(" digitos igual: ", i)
 
 # capicua
 numero = int(input(" escribir el valor a invertir  "))
-for i in (1, numero):
+for i in (numero, numero):
     centena = numero // 100
     residuo = numero % 100
     decena = residuo // 10
