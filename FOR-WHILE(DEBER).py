@@ -101,3 +101,80 @@ print(resultado)
 numero = int(input(" introducir el número: "))
 for i in range(1, 11):
     print(numero, " x ", i, " = ", (numero * i))
+
+
+
+
+#cedula
+print("\nIntroduce 9 digitos de cédula")
+sumaPar = 0
+sumaImpar = 0
+producto = 0
+i = 1
+while i < 10:
+     digitos = int(input(f"Introduce dígito {i}: "))
+     if i % 2 == 0:
+          sumaPar += digitos
+     else:
+          producto = digitos * 2
+          if producto > 9:
+              producto -= 9
+          sumaImpar += producto
+     i += 1
+
+sumaT = sumaPar + sumaImpar
+mod = sumaT % 10
+if mod != 0:
+     mod = 10 - mod
+     print(f"Dígito verificador es : ", mod)
+else:
+     print("Dígito verificador es: 0 ")
+
+     # Factura con descuento del 10% si su monto es mayor a $100
+     subtotal = 0
+     i = 1
+     while i != 0:
+         total_productos = int(input("Ingrese total de productos: "))
+         j = 1
+         while j <= total_productos:
+             producto = int(input("Valor producto : "))
+             subtotal += producto
+             j += 1
+         fin_while = int(input(" digite 0 para terminar proceso:"))
+         if fin_while == 0:
+             i = 0
+
+     if subtotal > 100:
+         descuento = subtotal * 0.10
+         subtotal -= descuento
+
+     iva = subtotal * 0.12
+     iva = round(iva, 2)
+     total_pago = subtotal + iva
+     total_pago = round(total_pago, 2)
+
+     print(f"IVA: {iva} Total a pagar: {total_pago}")
+
+
+
+# Factura con descuento del 10% si su monto es mayor a $100
+subtotal = 0
+i = 1
+while i != 0:
+     total_productos = int(input("Ingrese total de productos: "))
+     j = 1
+     while j <= total_productos:
+         producto = float(input("Valor producto : "))
+         subtotal += producto
+         j += 1
+     fin_while = int(input(" digite 0 para terminar proceso:"))
+     if fin_while == 0:
+          i = 0
+
+if subtotal > 100:
+    descuento = subtotal * 0.10
+    subtotal -= descuento
+iva = subtotal * 0.12
+total_pago = subtotal + iva
+print(" iva: ", iva)
+print(" total a pagar: ", total_pago)
