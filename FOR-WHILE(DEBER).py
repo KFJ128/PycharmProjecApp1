@@ -178,3 +178,16 @@ iva = subtotal * 0.12
 total_pago = subtotal + iva
 print(" iva: ", iva)
 print(" total a pagar: ", total_pago)
+
+
+
+#conteo
+numero =int(input(" leer el número: "))
+numero2 = str(numero)
+resultado = len(numero2)
+resultado2 = int(resultado)
+conteo = 0
+for i in (0, resultado2-1, 1):
+    conteo += i
+print(conteo)
+
