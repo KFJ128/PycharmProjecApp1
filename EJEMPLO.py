@@ -47,5 +47,4 @@ suma = 0
 while i <= valor_b:
     suma += valor_a
     i += 1
-print(suma
-      )
+print(suma)
