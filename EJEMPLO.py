@@ -26,3 +26,13 @@ if numero == t:
     print(" si es capicua: ", unidad, decena, centena)
 else:
     print(" no es un número capicua:", unidad, decena, centena)
+
+
+
+
+#tabla de multiplicar:
+numero = int(input(" introducir el número: "))
+for j in range(1, 11):
+    for i in range(1, 11):
+        print(numero, " x ", i, " = ", (numero * i))
+    numero += 1
