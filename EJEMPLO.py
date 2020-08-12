@@ -36,3 +36,16 @@ for j in range(1, 11):
     for i in range(1, 11):
         print(numero, " x ", i, " = ", (numero * i))
     numero += 1
+
+
+
+#multiplicacion
+valor_a = int(input(" add número para a: "))
+valor_b = int(input(" add número para b: "))
+i = 1
+suma = 0
+while i <= valor_b:
+    suma += valor_a
+    i += 1
+print(suma
+      )
