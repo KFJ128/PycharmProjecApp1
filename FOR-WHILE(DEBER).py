@@ -44,7 +44,7 @@ formula = 1
 i = 0
 while i <= limite:
     factorial = 1
-    for j in range(2, i +1):
+    for j in range(2, i + 1):
         factorial *= j
     formula = 1 / factorial
     sumatoria += formula
