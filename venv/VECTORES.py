@@ -1,15 +1,4 @@
-limite = int(input(" ingresar limite para aproximación de número E: "))
-sumatoria = 0
-formula = 1
-i = 0
-while i <= limite:
-    factorial = 1
-    for j in range(2, i +1):
-        factorial *= j
-    formula = 1 / factorial
-    sumatoria += formula
-    i += 1
-print(" respuesta valor de E: ", sumatoria)
+
 
 
 #leer un vector de 5 elementos
@@ -31,3 +20,17 @@ print(" el vector tiene ", len(vector), " elemento ")
 
 for i in range(0, len(vector)-1, -1, -1):
     print(" elemento del vector ", i, " = ", vector[i])
+
+
+
+
+
+vector1 = []
+n = int(input(" leer el limite: "))
+for i in range(0, n):
+    vector1.append(int(input(" escribir valores del vector: ")))
+print(" el vector tiene: ", len(vector1), " elementos ")
+for j in range(0, len(vector1)):
+    print(" elemento del vector ", j,":",  vector1[j])
+
+
