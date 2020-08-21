@@ -33,4 +33,64 @@ print("ultimo digito de la cedula es: ", udg)
 
 
 
+#binario a decamal
+import numpy as np
+entrada = input("ingrese el numero binario: ")
+cadena = entrada[::1]
+salida = 0; expo = 0
+while expo < len(cadena):
+    if (int(cadena[expo]) == 1):
+        salida += int(cadena[expo]) * 2 ** expo
+    expo += 1
+print(" el resultado es: ", salida)
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#decimal a binario
+num = float(input(" ingresar valor decimal a binario : "))
+lista = []
+
+while num >= 1:
+    lista.insert(0, num % 2)
+    num //= 2
+resultado = "".join(str(i) for i in lista)
+print(resultado)
+
+
+#decimal a octal
+num= float(input(" ingrese el número decimal a octal: "))
+vec = []
+while num >= 1:
+    vec.append(str(num % 8))
+    num //= 8
+print("".join(vec[::-1]))
+
+
+
+
+#decimal a hexadecimal
+num= float(input(" ingrese el número decimal a hexadecimal: "))
+vec = []
+while num >= 1:
+    vec.append(str(num % 16))
+    num //= 16
+print("".join(vec[::-1]))
