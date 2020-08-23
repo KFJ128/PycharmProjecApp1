@@ -43,7 +43,7 @@ while expo < len(cadena):
         salida += int(cadena[expo]) * 2 ** expo
     expo += 1
 print(" el resultado es: ", salida)
-# a es octal
+# a octal es
 num= salida
 vec = []
 while num >= 1:
@@ -51,12 +51,30 @@ while num >= 1:
     num //= 8
 print("octal es:", "".join(vec[::-1]))
 # a hexadecimal es
-num= salida
-vec = []
-while num >= 1:
-    vec.append(str(num % 16))
-    num //= 16
-print("hexadecimal es:", "".join(vec[::-1]))
+numero = int(salida)
+vec_hex = []
+while numero >= 1:
+    resto = numero % 16
+    if resto >= 10:
+        if resto == 10:
+            vec_hex.append("A")
+        elif resto == 11:
+            vec_hex.append("B")
+        elif resto == 12:
+            vec_hex.append("C")
+        elif resto == 13:
+            vec_hex.append("D")
+        elif resto == 14:
+            vec_hex.append("E")
+        else:
+            vec_hex.append("F")
+    else:
+        vec_hex.append(resto)
+    numero //= 16
+vec_hex.reverse()
+
+print("hexadecimal es: ", vec_hex)
+
 
 
 
@@ -87,5 +105,38 @@ while num >= 1:
     vec.append(str(num % 16))
     num //= 16
 print("".join(vec[::-1]))
+
+
+
+
+
+#decimal a hexadecimal
+num= float(input(" ingrese el número decimal a hexadecimal: "))
+vec_hex = []
+while numero >= 1:
+    residuo = numero % 16
+    if residuo >= 10:
+        if residuo == 10:
+            vec_hex.append(str("A"))
+        elif residuo == 11:
+            vec_hex.append(str("B"))
+        elif residuo == 12:
+            vec_hex.append(str("C"))
+        elif residuo == 13:
+            vec_hex.append(str("D"))
+        elif residuo == 14:
+            vec_hex.append(str("E"))
+        else:
+            vec_hex.append(str("F"))
+    else:
+        vec_hex.append(str(residuo))
+    numero //= 16
+vec_hex.reverse()
+
+print("hexadecimal es: ", vec_hex)
+
+
+
+
 
 
