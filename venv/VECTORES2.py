@@ -140,3 +140,24 @@ print("hexadecimal es: ", vec_hex)
 
 
 
+
+#decimal a binario
+import numpy as np
+num = float(input(" ingresar valor para hacer binario: "))
+lista = []
+while num >= 1:
+    lista.insert(0, num % 2)
+    num //= 2
+resultado = "".join(str(i) for i in lista)
+print(resultado)
+
+
+#decimal a octal
+import numpy as np
+num = float(input(" ingresar valor para hacer a octal: "))
+lista = []
+while num >= 1:
+    lista.insert(0, num % 8)
+    num //= 8
+resultado = "".join(str(i) for i in lista)
+print(resultado)
