@@ -20,18 +20,18 @@ a = np.random.randint(10, size=(6, 6))
 print(a)
 cuadrado = 0
 cubica = 0
-for i in range(0, 6):
- sumafilas = 0
- sumacolumnas = 0
- for j in range(0, 6):
-        sumafilas += (a[i][j]) ** 2
+for v in range(0, 6):
+    sumafilas = 0
+    sumacolumnas = 0
+    for w in range(0, 6):
+        sumafilas += (a[v][w]) ** 2
         cuadrado = (sumafilas ** 0.5)
-        sumacolumnas += (a[j][i]) ** 3
-        cubica = (sumafilas ** 0.33333333)
- print("\nLa suma de la fila elevada al cuadrado " + str(i + 1) + " es " + str(sumafilas))
- print("aplicando la formula de sumatoria con raiz cuadratica en cada fila su respuesta es: ", cuadrado)
- print("\nLa suma de la columna elevada al cubo " + str(i + 1) + " es " + str(sumacolumnas))
- print("aplicando la formula de sumatoria con raiz cubica en cada columna su respuesta es: ", cubica)
+        sumacolumnas += (a[w][v]) ** 3
+        cubica = (sumacolumnas ** 0.33333333)
+    print("\nLa suma de la fila " + str(v + 1) + " elevada al cuadrado es " + str(sumafilas))
+    print("aplicando la formula de sumatoria con raiz cuadratica en cada fila su respuesta es: ", cuadrado)
+    print("\nLa suma de la columna " + str(v + 1) + " elevada al cubo es " + str(sumacolumnas))
+    print("aplicando la formula de sumatoria con raiz cubica en cada columna su respuesta es: ", cubica)
 
 
 
