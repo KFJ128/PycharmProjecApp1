@@ -28,9 +28,9 @@ for i in range(0, 6):
         cuadrado = (sumafilas ** 0.5)
         sumacolumnas += (a[j][i]) ** 3
         cubica = (sumafilas ** 0.33333333)
- print("\nLa suma de la fila elevada al cuadrado " + str(i + 1) + " es " + str(sumafilas) )
+ print("\nLa suma de la fila elevada al cuadrado " + str(i + 1) + " es " + str(sumafilas))
  print("aplicando la formula de sumatoria con raiz cuadratica en cada fila su respuesta es: ", cuadrado)
- print("\nLa suma de la columna elevada al cubo " + str(i + 1) + " es " + str(sumacolumnas) )
+ print("\nLa suma de la columna elevada al cubo " + str(i + 1) + " es " + str(sumacolumnas))
  print("aplicando la formula de sumatoria con raiz cubica en cada columna su respuesta es: ", cubica)
 
 
