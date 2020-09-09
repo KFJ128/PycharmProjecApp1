@@ -19,5 +19,5 @@ print(w)
 for i in range(len(A)):
     vt[i, 0] = v[0, i]
 print(vt)
-s = (vt * w)
+s = 1 / np.dot(w, vt) * np.dot(vt, w)
 print(s)
