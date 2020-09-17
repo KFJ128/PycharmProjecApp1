@@ -1,4 +1,4 @@
-#suma de filas y de columnas
+##suma de filas y de columnas
 import numpy as np
 def numero_filas_columnas (filas, columnas):
     return np.random.randint(0, 11, (filas, columnas))
