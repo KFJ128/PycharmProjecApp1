@@ -1,4 +1,4 @@
-cedula = [1, 7, 2, 7, 6, 6, 6, 8, 3]
+cedula = [1, 7, 2, 1, 2, 2, 1, 5, 0]
 
 cedula[0] = cedula[0] * 2
 if cedula[0] > 9:

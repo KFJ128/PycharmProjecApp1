@@ -44,7 +44,7 @@ while expo < len(cadena):
     expo += 1
 print(" el resultado es: ", salida)
 # a octal es
-num= salida
+num = salida
 vec = []
 while num >= 1:
     vec.append(str(num % 8))
@@ -82,7 +82,7 @@ print("hexadecimal es: ", vec_hex)
 num = float(input(" ingresar valor decimal a binario : "))
 lista = []
 while num >= 1:
-    lista.append(str (num % 2))
+    lista.append(str(num % 2))
     num //= 2
 print( "".join(lista[::-1]))
 

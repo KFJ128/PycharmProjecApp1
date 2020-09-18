@@ -25,8 +25,8 @@ for v in range(0, 4):
 
 matriz = np.array([v1, w1])
 matriz2=np.transpose(matriz)
-print (matriz2)
-s=(1/(w*np.transpose(v1))) * (np.transpose(v1)*w)
+print(matriz2)
+s = (1/(w*np.transpose(v1))) * (np.transpose(v1)*w)
 print(s)
 
 

@@ -1,4 +1,3 @@
-
 #suma de matriz + matriz
 import numpy as np
 A = np.random.randint(10, size=(5, 5))

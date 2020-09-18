@@ -33,6 +33,12 @@ print(s)
 
 
 
-
+#decimal a binario
+numero = int(input(" lee el valor decimal a converitr: "))
+lista = []
+while numero >= 1:
+    lista.append(str(numero % 2))
+    numero //= 2
+print("".join(lista[::-1]))
 
 
