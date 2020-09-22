@@ -40,43 +40,9 @@ pares = (nc2 + nc4 + nc6 + nc8)
 total = (pares + impares)
 print(" total: ", total)
 
-if total <= 10:
- total -= 10
- print(" ultimo digito de cedula: ", total)
-
-elif (total < 20) and (total > 10):
- total -= 20
- print(" ultimo digito de cedula: ", total)
-
-elif (total < 30) and (total > 20):
- total -= 30
- print(" ultimo digito de cedula: ", total)
-
-elif (total < 40) and (total > 30):
- total -= 40
- print(" ultimo digito de cedula: ", total)
-
-elif (total < 50) and (total > 40):
- total -= 50
- print(" ultimo digito de cedula: ", total)
-
-elif (total < 60) and (total > 50):
- total -=60
- print(" ultimo digito de cedula: ", total)
-
-elif (total < 70) and (total > 60):
- total -=70
- print(" ultimo digito de cedula: ", total)
-
-elif (total < 80) and (total > 70):
- total -= 80
- print(" ultimo digito de cedula: ", total)
-
-elif (total < 90) and (total > 80):
- total -= 90
- print(" ultimo digito de cedula: ", total)
-
-
+total %= 10
+total = 10 - total
+print(f"Dígito verificador es: ", total)
 
 
 
