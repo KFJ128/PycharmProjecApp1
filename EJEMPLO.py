@@ -48,3 +48,14 @@ while i <= valor_b:
     suma += valor_a
     i += 1
 print(suma)
+
+#division
+numer1 = int(input("leer primer digito: "))
+numer2 = int(input("leer segundo digito: "))
+total=0
+i=numer1
+cont=0
+while i>0:
+    i=i-numer2
+    cont=cont+1
+print(cont)
